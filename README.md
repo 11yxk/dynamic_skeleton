@@ -18,7 +18,7 @@ python main.py --config ./config/nturgbd-cross-subject/default.yaml
 python main.py --config ./config/nturgbd-cross-subject/default.yaml --phase test --save-score True --weights weight/CS_joint.pt --model model.dynamic_ctrgcn_scheme2_test.Model
 ```
 
-- To ensemble the results of different modalities, run 
+- To ensemble the results of different modalities, run:
 ```
 # Example: ensemble four modalities on NTU RGB+D 60 cross subject
 python ensemble.py --datasets ntu/xsub --joint-dir work_dir/ntu/csub/ctrgcn --bone-dir work_dir/ntu/csub/ctrgcn_bone --joint-motion-dir work_dir/ntu/csub/ctrgcn_motion --bone-motion-dir work_dir/ntu/csub/ctrgcn_bone_motion
@@ -26,7 +26,7 @@ python ensemble.py --datasets ntu/xsub --joint-dir work_dir/ntu/csub/ctrgcn --bo
 
 ### Pretrained Models
 
-- Pretrained Models are placed in the folder /weights.
+- Pretrained Models are placed in the folder ./weights.
 
 
 ## Acknowledgements
