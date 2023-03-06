@@ -3,7 +3,7 @@ Pytorch Implementation of paper '' A Module Selection-based Approach for Efficie
 Our method can be easily combined to other state-of-the-art skeleton-based backbone networks, we provide [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) as backbone in this repo.
 
 # Data Preparation
-Please follow the instructions of https://github.com/Uason-Chen/CTR-GCN
+Please follow the instructions of https://github.com/Uason-Chen/CTR-GCN .
 # Training & Testing
 
 ### Training
@@ -27,7 +27,7 @@ python ensemble.py --datasets ntu/xsub --joint-dir work_dir/ntu/xsub/ctrgcn --bo
 
 ### Pretrained Models
 
-- Pretrained Models are placed in the folder ./weights.
+- Pretrained Models are avaliable at https://drive.google.com/file/d/16tBLRYZszba8-nK1GVfQ-ESHVuM-c2yG/view?usp=share_link.
 
 
 ## Acknowledgements
