@@ -1,5 +1,6 @@
 # dynamic_skeleton
 Pytorch Implementation of paper '' A Module Selection-based Approach for Efficient Skeleton Human Action Recognition''
+Our method can be easily combined to other state-of-the-art skeleton-based backbone networks, we provide [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) 
 
 # Data Preparation
 Please follow the instructions of a https://github.com/Uason-Chen/CTR-GCN
