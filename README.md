@@ -22,7 +22,7 @@ python main.py --config ./config/nturgbd-cross-subject/default.yaml --phase test
 - To ensemble the results of different modalities, run:
 ```
 # Example: ensemble four modalities on NTU RGB+D 60 cross subject
-python ensemble.py --datasets ntu/xsub --joint-dir work_dir/ntu/csub/ctrgcn --bone-dir work_dir/ntu/csub/ctrgcn_bone --joint-motion-dir work_dir/ntu/csub/ctrgcn_motion --bone-motion-dir work_dir/ntu/csub/ctrgcn_bone_motion
+python ensemble.py --datasets ntu/xsub --joint-dir work_dir/ntu/xsub/ctrgcn --bone-dir work_dir/ntu/xsub/ctrgcn_bone --joint-motion-dir work_dir/ntu/xsub/ctrgcn_motion --bone-motion-dir work_dir/ntu/xsub/ctrgcn_bone_motion
 ```
 
 ### Pretrained Models
