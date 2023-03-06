@@ -10,7 +10,7 @@ Please follow the instructions of a https://github.com/Uason-Chen/CTR-GCN
 ```
 # Example: training network on NTU RGB+D 60 cross subject
 python main.py --config ./config/nturgbd-cross-subject/default.yaml
-
+```
 ### Testing
 
 - For example, to test the joint modality of nturgbd-cross-subject dataset using second scheme, run the following command:
