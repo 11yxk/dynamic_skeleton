@@ -16,7 +16,7 @@ python main.py --config ./config/nturgbd-cross-subject/default.yaml
 
 ```
 # Example: testing the joint modality of nturgbd-cross-subject dataset using second scheme
-python main.py --config ./config/nturgbd-cross-subject/default.yaml --phase test --save-score True --weights weight/CS_joint.pt --model model.dynamic_ctrgcn_scheme2_test.Model
+python main.py --config ./config/nturgbd-cross-subject/default.yaml --phase test --save-score True --weights weight/CTR-GCN-Scheme2/ntu60/xsub/CS_joint.pt --model model.dynamic_ctrgcn_scheme2_test.Model
 ```
 
 - To ensemble the results of different modalities, run:
