@@ -3,7 +3,7 @@ Pytorch Implementation of paper '' A Module Selection-based Approach for Efficie
 Our method can be easily combined to other state-of-the-art skeleton-based backbone networks, we provide [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) as backbone in this repo.
 
 # Data Preparation
-Please follow the instructions of https://github.com/Uason-Chen/CTR-GCN .
+Please follow the instructions of [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN).
 # Training & Testing
 
 ### Training
