@@ -1,5 +1,4 @@
 import numpy as np
-
 def get_sgp_mat(num_in, num_out, link):
     A = np.zeros((num_in, num_out))
     for i, j in link:
