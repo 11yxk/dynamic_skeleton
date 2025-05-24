@@ -2,7 +2,6 @@
 from __future__ import print_function
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
-
 import argparse
 import inspect
 import os
