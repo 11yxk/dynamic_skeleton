@@ -1,6 +1,5 @@
 import sys
 import numpy as np
-
 sys.path.extend(['../'])
 from graph import tools
 
