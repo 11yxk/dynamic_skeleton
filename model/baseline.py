@@ -6,6 +6,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 
+
 def import_class(name):
     components = name.split('.')
     mod = __import__(components[0])
